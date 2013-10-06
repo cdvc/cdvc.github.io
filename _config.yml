@@ -1,3 +1,13 @@
 cdvcDetails:
-	name: Cassian de Vere Cole Fine Art
-	addressLineOne: abcs
+ name: Cassian de Vere Cole Fine Art
+ addressLineOne: abcs
+
+exhibitionDetails:
+ context: "Exhibition Details:"
+ title: "Georgina von Etzdorf : Paintings"
+ dates: November 27th - December 14th
+ extraInfo:
+
+image: 
+ location: "assets/image.jpg"
+ description: "xy by Abc"
