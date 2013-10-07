@@ -9,5 +9,5 @@ exhibitionDetails:
  extraInfo: "Please contact the gallery for viewing times"
 
 image: 
- location: "assets/image.jpg"
- description: "xy by Abc"
+ location: ""
+ description: ""
