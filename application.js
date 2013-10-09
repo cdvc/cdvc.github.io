@@ -17,8 +17,8 @@ $(document).ready( function(){
 				  //callback which can be used to show a thank you message
 				  //and reset the form
 				  alert("Thank you for leaving your details, you will be added to the mailing list shortly");
-				  email.val('');
-				  name.val('');
+				  		$('#email').val('');
+				  		$('#name').val('');
 				});
 		} else { alert("Your details are incorrect")}
 	});
