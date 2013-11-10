@@ -1,6 +1,22 @@
 cdvcDetails:
  name: "CASSIAN de VERE COLE"
- addressLineOne: abcs
+ addressLineOne: 
+ tagline: "Modern British & Contemporary art"
+
+address:
+ addresstitle: ADDRESS
+ lineone: "Ladbroke Grove Entrance"
+ linetwo: "50 Elgin Crescent"
+ linethree: "London W11 2JJ"
+
+viewingdetails:
+ title: "VIEWING DURING EXHIBITIONS"
+ info: "Please contact the gallery"
+
+contactdetails:
+ title: "CONTACT"
+ phone: "+44 (0) 7872 831525"
+ email: "<a href=\"mailto:cdvc@cdvc.co\">cdvc@cdvc.co</a>"
 
 exhibitionDetails:
  context: ""
@@ -9,5 +25,5 @@ exhibitionDetails:
  extraInfo: "Please contact the gallery for viewing times"
 
 image: 
- location: ""
- description: ""
+ location: "assets/image.jpg"
+ description: "This is an image"

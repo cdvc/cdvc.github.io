@@ -42,28 +42,28 @@
 	<div class="left-block">
 	<h5>{{site.cdvcDetails.name}}</h5>
 
-<p> <small >Modern British & Contemporary art</small></p>
+<p> <small >{{site.cdvcDetails.tagline}}</small></p>
 		<p id ="extraheight">By Appointment</p>
 	</div>
 
 
 	<div class="left-block">
-	<h1>ADDRESS</h1>
-	<p>Ladbroke Grove Entrance</br>
-		50 Elgin Crescent </br>
-		London W11 2JJ
+	<h1>{{site.address.addresstitle}}</h1>
+	<p>{{site.address.lineone}}</br>
+		{{site.address.linetwo}}</br>
+		{{site.address.linethree}}
 	</p>
 	</div>
 	
 	<div class="left-block">
-	<h1>VIEWING DURING EXHIBITIONS</h1>
-	<p>Please contact the gallery</p>
+	<h1>{{site.viewingdetails.title}}</h1>
+	<p>{{site.viewingdetails.info}}</p>
 	</div>
 
 	<div class="left-block">
-		<h1> CONTACT </h1>
-	<p>+44 (0) 7872 831525</p>
-	<p><a href="mailto:cdvc@cdvc.co">cdvc@cdvc.co</a></p>
+		<h1> {{site.contactdetails.title}} </h1>
+	<p>{{site.contactdetails.phone}}</p>
+	<p>{{site.contactdetails.email}}</p>
 	</div>
 
 	<div class="left-block">
@@ -80,7 +80,7 @@
 
 <div id = "content">
 	<div id = "centre">
-		<img src="{{site.image.location}}" alt=""></img>
+		<img src="{{site.image.location}}" alt="" id="centreimage"></img>
 		<p> {{site.image.description}} </p>
 
 	</div>

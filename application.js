@@ -22,10 +22,10 @@ $(document).ready( function(){
 				});
 		} else { alert("Your details are incorrect")}
 	});
-	// console.log(jQuery('#centreimage').attr('src'));
-	// console.log(jQuery('#exhibitioncontext').html());
+	console.log(jQuery('#centreimage').attr('src'));
+	console.log(jQuery('#exhibitioncontext').html());
 	if (jQuery('#centreimage').attr('src')==(''||undefined))
-		{ jQuery('#centre').html('');
+		{ jQuery('#centre').hide();
 		}
 	if (jQuery('#exhibitioncontext').html()==''){
 		jQuery('#exhibitioncontext').hide();
