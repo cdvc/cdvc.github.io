@@ -8,6 +8,15 @@ exhibitionDetails:
  dates: "Revised dates : 27th November - 14th December 2013"
  extraInfo: "Please contact the gallery for viewing times"
 
+upcomingDetails:
+ context: ""
+ title: "HOWARD PHIPPS : WOOD ENGRAVINGS"
+ dates: "18th - 21st December 11am-7pm"
+ dates1: "6th - 11th January 2-6pm"
+ dates2: "and by appointment"
+ extraInfo: "Please contact the gallery for viewing times"
+
+
 image: 
  location: ""
  description: ""

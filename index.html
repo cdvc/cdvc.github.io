@@ -30,7 +30,7 @@
 
 		}
 	</script>
-	<script src="/application.js" type="text/javascript" charset="utf-8"></script>
+	<script src="application.js" type="text/javascript" charset="utf-8"></script>
 
 </head>
 <body>
@@ -87,15 +87,26 @@
 
 	<div id ="right">
 
-	<div class = "right-block">
-		<p style="text-align:left" id="exhibitioncontext">{{site.exhibitionDetails.context}}</p>
-		<h5 style="text-align:left">{{site.exhibitionDetails.title}}</h5>
-		<p>{{site.exhibitionDetails.dates}}</p>
-	</div>
+		<div class = "right-block">
+			<p style="text-align:left" id="exhibitioncontext">{{site.exhibitionDetails.context}}</p>
+			<h5 style="text-align:left">{{site.exhibitionDetails.title}}</h5>
+			<p>{{site.exhibitionDetails.dates}}</p>
+			<p> {{site.exhibitionDetails.extraInfo}}</p>
 
-	<div class = "right-block">
-	<p> {{site.exhibitionDetails.extraInfo}}</p>
-	</div>
+		</div>
+<!-- 
+		<div class = "right-block">
+		</div> -->
+
+		<div class = "right-block">
+			<p style="text-align:left" id="exhibitioncontext">{{site.upcomingDetails.context}}</p>
+			<h5 style="text-align:left">{{site.upcomingDetails.title}}</h5>
+			<p>{{site.upcomingDetails.dates}}</p>
+			<p>{{site.upcomingDetails.dates1}}</p>
+			<p>{{site.upcomingDetails.dates2}}</p>
+
+		</div>
+
 	</div>   <!-- right -->
 </div>
 
