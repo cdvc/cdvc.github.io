@@ -24,12 +24,17 @@ $(document).ready( function(){
 	});
 	// console.log(jQuery('#centreimage').attr('src'));
 	// console.log(jQuery('#exhibitioncontext').html());
-	if (jQuery('#centreimage').attr('src')==(''||undefined))
-		{ jQuery('#centre').html('');
-		}
-	if (jQuery('#exhibitioncontext').html()==''){
-		jQuery('#exhibitioncontext').hide();
-	}
+	// if (jQuery('#centreimage').attr('src')==(''||undefined))
+	// 	{ jQuery('#centre').html('');
+		// }
+	// if (jQuery('#exhibitioncontext').html()==''){
+	// 	jQuery('#exhibitioncontext').hide();
+	// }
+
+	jQuery('#centreimage').fancybox({
+	height: "40",
+    autoScale : true,    
+	});
 
 
 });

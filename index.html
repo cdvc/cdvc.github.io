@@ -21,8 +21,11 @@
 	
 	<link href="assets/reset.css" media="all" rel="stylesheet" type="text/css" />
 	<link href="assets/style.css" media="all" rel="stylesheet" type="text/css" />
+	<link href="assets/source/jquery.fancybox.css" media="all" rel="stylesheet" type="text/css" />
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/assets/source/jquery.fancybox.js"></script>
+	
 	<script type="text/javascript" charset="utf-8">
 		function clearText(field){
     		if (field.defaultValue == field.value) field.value = '';
@@ -79,8 +82,8 @@
 </div> <!-- left -->
 
 <div id = "content">
-	<div id = "centre">
-		<img src="{{site.image.location}}" alt=""></img>
+	<div id = "centre" class="fancybox">
+		<a href="{{site.image.location}}" title="Downs in Winter 100 x 100mm £155 unframed" src="" id="centreimage" alt=""><img src="{{site.image.location}}" id="" alt=""></img><a>
 		<p> {{site.image.description}} </p>
 
 	</div>
@@ -104,6 +107,11 @@
 			<p>{{site.upcomingDetails.dates}}</p>
 			<p>{{site.upcomingDetails.dates1}}</p>
 			<p>{{site.upcomingDetails.dates2}}</p>
+			<p>{{site.upcomingDetails.dates3}}</p>
+			</br>
+			<p>{{site.upcomingDetails.extraInfo}}</p>
+
+
 
 		</div>
 

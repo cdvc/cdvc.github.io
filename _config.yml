@@ -11,12 +11,12 @@ exhibitionDetails:
 upcomingDetails:
  context: ""
  title: "HOWARD PHIPPS : WOOD ENGRAVINGS"
- dates: "18th - 21st December 11am-7pm"
- dates1: "6th - 11th January 2-6pm"
+ dates: "14th - 31st January 2014"
+ dates1: "Saturday 10am-4pm"
  dates2: "and by appointment"
- extraInfo: "Please contact the gallery for viewing times"
-
+ dates3: "closed sunday and monday"
+ extraInfo: "Further Howard Phipps images available via email please contact <a href=\"mailto:cddvc@cdvc.co\"> cdvc@cdvc.co </a>"
 
 image: 
- location: ""
- description: ""
+ location: "/assets/phipps.jpg"
+ description: "Downs in Winter 100 x 100mm £155 unframed"
