@@ -137,6 +137,9 @@ a.special{
 
 #centre p {
 	text-align: center;
+font-style: normal;
+font-stretch: condensed;
+font-size: 0.65em;
 }
 
 

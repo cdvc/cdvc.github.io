@@ -12,6 +12,7 @@ upcomingDetails:
  context: ""
  title: "HOWARD PHIPPS : WOOD ENGRAVINGS"
  dates: "14th - 31st January 2014"
+ datesextra: "Tuesday - Friday 2-6pm"
  dates1: "Saturday 10am-4pm"
  dates2: "and by appointment"
  dates3: "closed sunday and monday"
@@ -19,4 +20,4 @@ upcomingDetails:
 
 image: 
  location: "/assets/phipps.jpg"
- description: "Downs in Winter 100 x 100mm £155 unframed"
+ description: "Howard Phipps Downs in Winter 100x100mm £155 unframed"
