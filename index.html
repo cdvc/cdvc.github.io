@@ -6,26 +6,26 @@
 
 <html>
 <head>
-	
+
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="Gallery in Notting Hill, UK" />
 	<meta name="keywords" content="Gallery, Modern British, London, Cassian de Vere Cole" />
 	<meta http-equiv="language" content="en" />
-	
+
 	<meta name="DC.title" content="Cassian de Vere Cole Fine Art" />
 	<meta name="geo.region" content="GB" />
 	<meta name="geo.placename" content="London" />
 	<meta name="geo.position" content="51.514135,-0.208074" />
-	
+
 	<title>Cassian de Vere Cole Fine Art</title>
-	
+
 	<link href="assets/reset.css" media="all" rel="stylesheet" type="text/css" />
 	<link href="assets/style.css" media="all" rel="stylesheet" type="text/css" />
 	<link href="assets/source/jquery.fancybox.css" media="all" rel="stylesheet" type="text/css" />
-	
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="/assets/source/jquery.fancybox.js"></script>
-	
+
 	<script type="text/javascript" charset="utf-8">
 		function clearText(field){
     		if (field.defaultValue == field.value) field.value = '';
@@ -39,7 +39,7 @@
 <body>
 
 
-<div id="container">	
+<div id="container">
 
 <div id="left">
 	<div class="left-block">
@@ -57,7 +57,7 @@
 		London W11 2JJ
 	</p>
 	</div>
-	
+
 	<div class="left-block">
 	<h1>VIEWING DURING EXHIBITIONS</h1>
 	<p>Please contact the gallery</p>
@@ -71,7 +71,7 @@
 
 	<div class="left-block">
 	<h1>MAILING LIST</h1>
-		 		
+
 	<form  accept-charset="utf-8" class="form">
 		<input type="text" name="name" value="name" onFocus="clearText(this)" onBlur="clearText(this)" class="email" id="name">
 		<input type="text" name="email" value="email address" onFocus="clearText(this)" onBlur="clearText(this)" class="email" id="email">
@@ -81,43 +81,6 @@
 	</div>
 </div> <!-- left -->
 
-<div id = "content">
-	<div id = "centre" class="fancybox">
-		<a href="{{site.image.location}}" title="Downs in Winter 100 x 100mm £155 unframed" src="" id="centreimage" alt=""><img src="{{site.image.location}}" id="" alt=""></img><a>
-		<p> {{site.image.description}} </p>
-
-	</div>
-
-	<div id ="right">
-
-		<div class = "right-block">
-			<p style="text-align:left" id="exhibitioncontext">{{site.exhibitionDetails.context}}</p>
-			<h5 style="text-align:left">{{site.exhibitionDetails.title}}</h5>
-			<p>{{site.exhibitionDetails.dates}}</p>
-			<p> {{site.exhibitionDetails.extraInfo}}</p>
-
-		</div>
-<!-- 
-		<div class = "right-block">
-		</div> -->
-
-		<div class = "right-block">
-			<p style="text-align:left" id="exhibitioncontext">{{site.upcomingDetails.context}}</p>
-			<h5 style="text-align:left">{{site.upcomingDetails.title}}</h5>
-			<p>{{site.upcomingDetails.dates}}</p>
-			<p>{{site.upcomingDetails.datesextra}}</p>
-			<p>{{site.upcomingDetails.dates1}}</p>
-			<p>{{site.upcomingDetails.dates2}}</p>
-			<p>{{site.upcomingDetails.dates3}}</p>
-			</br>
-			<p>{{site.upcomingDetails.extraInfo}}</p>
-
-
-
-		</div>
-
-	</div>   <!-- right -->
-</div>
 
 </body>
 </html>
